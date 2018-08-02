@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LiftApp</string>
+    <string name="ex_bench">Bench Press</string>
+    <string name="ex_deadlift">Deadlift</string>
+    <string name="ex_overhead">Overhead Press</string>
+    <string name="ex_squat">Squat</string>
+</resources>

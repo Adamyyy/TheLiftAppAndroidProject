@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    tools:context=".Controller.PlanFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_bench"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reps:"/>
+            <EditText
+                android:id="@+id/plan_bench"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sets:"/>
+            <EditText
+                android:id="@+id/plan_bench_sets"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Weight:"/>
+            <EditText
+                android:id="@+id/plan_bench_weight"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_deadlift"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reps:"/>
+            <EditText
+                android:id="@+id/plan_deadlift"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sets:"/>
+            <EditText
+                android:id="@+id/plan_deadlift_sets"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Weight:"/>
+            <EditText
+                android:id="@+id/plan_deadlift_weight"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_overhead"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reps:"/>
+            <EditText
+                android:id="@+id/plan_overhead"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sets:"/>
+            <EditText
+                android:id="@+id/plan_overhead_sets"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Weight:"/>
+            <EditText
+                android:id="@+id/plan_overhead_weight"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ex_squat"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reps:"/>
+            <EditText
+                android:id="@+id/plan_squat"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sets:"/>
+            <EditText
+                android:id="@+id/plan_squat_sets"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Weight:"/>
+            <EditText
+                android:id="@+id/plan_squat_weight"
+                android:digits="0123456789."
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/plan_button_save"
+                android:text="SAVE"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/plan_button_reset"
+                android:text="RESET"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/plan_button_give"
+                android:text="INCREASE WEIGHTS"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:id="@+id/plan_button_default"
+                android:text="DEFAULTS"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/plan_progressbar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</FrameLayout>

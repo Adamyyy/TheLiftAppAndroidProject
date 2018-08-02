@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context="com.example.admin.liftapp.Controller.UserDetailFragment">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/user_avatar_img"
+            android:layout_width="100dp"
+            android:layout_height="160dp"
+            android:src="@drawable/traineravatar"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserName:"/>
+            <EditText
+                android:id="@+id/user_userName_et"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height:"/>
+            <EditText
+                android:id="@+id/user_height_et"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight:"/>
+            <EditText
+                android:id="@+id/user_weight_et"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. Date:"/>
+            <TextView
+                android:id="@+id/newstudent_bdate_et"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Claim To Fame:"/>
+            <EditText
+                android:id="@+id/user_claimToFame_et"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/newstudent_save_btn"
+                android:text="SAVE Details"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/newstudent_Image_btn"
+                android:text="New Image"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/newstudent_cancel_btn"
+                android:text="Delete User"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/userp_progressbar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</FrameLayout>
